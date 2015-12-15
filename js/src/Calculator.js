@@ -1,4 +1,4 @@
-var Calculator = function() {}
+var Calculator = function() {};
 
 Calculator.prototype.add = function(a, b) {
     return 3;
