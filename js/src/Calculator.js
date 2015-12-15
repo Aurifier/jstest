@@ -1,11 +1,11 @@
 var Calculator = function() {};
 
 Calculator.prototype.add = function(a, b) {
-    return 3;
+    return a+b;
 };
 
 Calculator.prototype.subtract = function(a, b) {
-    return 7;
+    return a-b;
 };
 
 Calculator.prototype.multiply = function(a, b) {
