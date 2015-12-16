@@ -9,12 +9,12 @@ Calculator.prototype.subtract = function(a, b) {
 };
 
 Calculator.prototype.multiply = function(a, b) {
-    return 12;
+    return a*b;
 };
 
 Calculator.prototype.divide = function(a, b) {
     if(b === 0) {
         return NaN;
     }
-    return 5;
+    return a/b;
 };
