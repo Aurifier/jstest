@@ -1,13 +1,13 @@
 var withExponents = function() {
-    this.multiplyExp = function() {
-        return 128;
+    this.pow = function(a, b) {
+        return Math.pow(a, b);
     };
 
-    this.pow = function() {
-        return 8;
+    this.multiplyExp = function(a, b) {
+        return Math.pow(a[0],a[1]) * Math.pow(b[0],b[1]);
     };
 
-    this.divideExp = function() {
-        return 0.25;
+    this.divideExp = function(a, b) {
+        return Math.pow(a[0],a[1]) / Math.pow(b[0],b[1]);
     };
 };
